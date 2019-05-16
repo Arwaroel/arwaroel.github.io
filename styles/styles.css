@@ -1,0 +1,41 @@
+/*Global Style Settings*/
+
+html {
+    background-color: #F5F5F1;
+    font-size: 10px; /* px bedeutet 'pixels': die Schriftgröße wird auf 10 Pixel gesetzt  */
+    font-family: 'Baloo Bhai', cursive;
+    font-family: 'Open Sans', sans-serif; /* hier kommt der Name der ausgewählten Schriftfamilie hin */
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #F5F5F1;
+    padding:0 20px 20px 20px; 
+
+}
+
+
+h1 {
+    font-size: 50px;
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    color: #62A8E5;
+    margin: 0;
+}
+
+p,li {
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+
+img {
+    padding: 0 0 0 0;
+    width: 100%;
+    height:430px;
+    margin: 0 auto;
+    display: block;
+}
